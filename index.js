@@ -16,12 +16,18 @@ function selectYes() {
 
     // Create new div with static response
     const responseDiv = document.createElement("div")
-    const responseMessage = document.createElement("h3")
+    const responseMessage = document.createElement("h1")
     responseMessage.innerText = "You Selected Yes! Love You :)"
     responseDiv.setAttribute("class", "question")
     responseDiv.appendChild(responseMessage)
-    
     document.body.appendChild(responseDiv)
+
+    const imageDiv = document.createElement("div")
+    imageDiv.setAttribute("class", "answer")
+    const imageElement = document.createElement("img")
+    imageElement.setAttribute("src", "images/Valentines-Day-GIFs-4.gif")
+    imageDiv.appendChild(imageElement)
+    document.body.appendChild(imageDiv)
 }
 
 /*

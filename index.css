@@ -44,3 +44,7 @@ button {
 .highlight-button {
     background-color: lightpink;
 }
+
+img {
+    border-radius: 100px;
+}
